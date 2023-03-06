@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="">
+	<Resource
+		auth="Container"
+		closeMethod="close"
+		defaultAutoCommit="false"
+		defaultCatalog="d2llo9qfp1nudb"
+		driverClassName="org.postgresql.Driver"
+		factory="org.apache.commons.dbcp2.BasicDataSourceFactory"
+		logAbandoned="true"
+		name="jdbc/CyberTroopsDS"
+		password="3c768e9d071c4d8fc2deb87d2c7629b5d05b7e0a38ae5a214d7a979aa5aef29d"
+		removeAbandoned="true"
+		rollbackOnReturn="true"
+		testOnBorrow="true"
+		testOnReturn="true"
+		testWhileIdle="true"
+		type="javax.sql.DataSource"
+		url="jdbc:postgresql://ec2-23-23-86-179.compute-1.amazonaws.com:5432/d2llo9qfp1nudb"
+		username="jbodvsvfqjnszt"
+		validationQuery="SELECT version();"
+	/>
+</Context>

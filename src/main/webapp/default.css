@@ -1,0 +1,16 @@
+/**
+ * @author	P-C Lin (a.k.a 高科技黑手)
+ */
+*{font-family:Helvetica,Arial,sans-serif;font-size:12px}
+.width980{margin:0 auto;width:980px}
+
+BODY{background:#FFF none repeat scroll 0 0;color:#1D2129;direction:ltr;line-height:1.34;margin:0;overflow-x:hidden;overflow-y:scroll;padding:0;unicode-bidi:embed}
+FORM LABEL{cursor:pointer}
+FORM LABEL:after{content:'：'}
+
+DIV#pageletBar{background-color:#D3D8E8;min-height:83px}
+FORM#loginForm{float:right;padding-top:12px}
+FORM#loginForm TH,FORM#loginForm TD{padding:0 0 0 14px}
+FORM#loginForm INPUT[type='password'],FORM#loginForm INPUT[type='text']{border:1px solid #1D2A5B;color:#1D2129;font-family:monospace;width:142px;padding:3px}
+FORM#loginForm INPUT[type='submit']{padding:7px 14px;background-color:#8163A5;border:0px;border-radius:3px;color:#FFF;cursor:pointer;display:inline-block;line-height:18px;text-align:center}
+FORM#loginForm INPUT[type='submit']:hover{background-color:#8669A9}
